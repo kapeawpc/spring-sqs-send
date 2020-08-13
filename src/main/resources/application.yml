@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+cloud:
+  aws:
+    region:
+      static: ap-southeast-1
+    credentials:
+      accessKey: #ACCESSKEY
+      secretKey: #SECRETKEY
+    stack:
+      name: Spring-Sqs
